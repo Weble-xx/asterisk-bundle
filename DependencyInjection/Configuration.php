@@ -1,6 +1,6 @@
 <?php
 
-namespace Ryzhov\Bundle\AsteriskBundle\DependencyInjection;
+namespace WebleXX\Bundle\AsteriskBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

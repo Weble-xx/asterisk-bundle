@@ -1,10 +1,10 @@
 <?php
 
-namespace Ryzhov\Bundle\AsteriskBundle;
+namespace WebleXX\Bundle\AsteriskBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
-use Ryzhov\Bundle\AsteriskBundle\DependencyInjection\Compiler\EventHandlerPass;
+use WebleXX\Bundle\AsteriskBundle\DependencyInjection\Compiler\EventHandlerPass;
 
 class AsteriskBundle extends Bundle
 {

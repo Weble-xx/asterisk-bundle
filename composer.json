@@ -16,7 +16,7 @@
         "weble-xx/pami": "~1.0"
     },
     "autoload": {
-        "psr-4": { "WebleXX\\Bundle\AsteriskBundle\\": "" }
+        "psr-4": { "WebleXX\\Bundle\\AsteriskBundle\\": "" }
     },
     "extra": {
         "branch-alias": {

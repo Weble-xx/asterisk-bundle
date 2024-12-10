@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "weble-xx/pami": "~1.0"
+        "marcelog/PAMI": "~1.0"
     },
     "autoload": {
         "psr-4": { "WebleXX\\Bundle\\AsteriskBundle\\": "" }

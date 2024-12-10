@@ -1,7 +1,7 @@
 AsteriskBundle
 ==============
 
-The `AsteriskBundle` provides integration of the [Asterisk PAMI](https://github.com/ryzhov/PAMI)
+The `AsteriskBundle` provides integration of the [Asterisk PAMI](https://github.com/weble-xx/PAMI)
 library into the Symfony2 framework.
 
 License
@@ -15,7 +15,7 @@ Installation
 Require the bundle and its dependencies with composer:
 
 ```bash
-$ composer require ryzhov/asterisk-bundle
+$ composer require WebleXX/asterisk-bundle
 ```
 
 Register the bundle:
@@ -26,7 +26,7 @@ Register the bundle:
 public function registerBundles()
 {
     $bundles = array(
-        new Ryzhov\Bundle\AsteriskBundle(),
+        new WebleXX\Bundle\AsteriskBundle(),
     );
 }
 ```
@@ -99,10 +99,10 @@ class EventHandler implements IEventListener
 
 ```
 
-This is example of code  [ryzhov/example-asterisk-ami](https://github.com/ryzhov/example-asterisk-ami)
+This is example of code  [WebleXX/example-asterisk-ami](https://github.com/WebleXX/example-asterisk-ami)
 
 ```bash
-$ composer create-project ryzhov/example-asterisk-ami
+$ composer create-project WebleXX/example-asterisk-ami
 -- configure ami socket parameters here --
 asterisk_host (localhost): 127.0.0.1
 asterisk_ami_port (5038): 

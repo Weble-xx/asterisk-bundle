@@ -1,22 +1,22 @@
 {
-    "name": "ryzhov/asterisk-bundle",
+    "name": "weble-xx/asterisk-bundle",
     "type": "symfony-bundle",
     "description": "AsteriskBundle for symfony framework",
     "keywords": ["SIP", "VOIP", "AMI", "Asterisk", "telephony", "client", "event"],
-    "homepage": "https://github.com/ryzhov/asterisk-bundle",
+    "homepage": "https://github.com/weble-xx/asterisk-bundle",
     "license": "MIT",
     "authors": [
         {
-            "name": "Aleksandr N. Ryzhov",
-            "email": "a.n.ryzhov@gmail.com"
+            "name": "MF",
+            "email": "mf@codehaufen.de"
         }
     ],
     "require": {
-        "php": ">=5.3.2",
+        "php": ">=7.4",
         "weble-xx/pami": "~1.0"
     },
     "autoload": {
-        "psr-4": { "Ryzhov\\Bundle\\AsteriskBundle\\": "" }
+        "psr-4": { "WebleXX\\AsteriskBundle\\": "src/" }
     },
     "extra": {
         "branch-alias": {

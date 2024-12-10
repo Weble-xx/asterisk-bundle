@@ -3,7 +3,7 @@
  * @author Aleksandr N. Ryzhov <a.n.ryzhov@gmail.com>
  */
 
-namespace Ryzhov\Bundle\AsteriskBundle\DependencyInjection\Compiler;
+namespace WebleXX\Bundle\AsteriskBundle\DependencyInjection\Compiler;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

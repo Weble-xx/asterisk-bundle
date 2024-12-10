@@ -1,6 +1,6 @@
 <?php
 
-namespace Ryzhov\Bundle\AsteriskBundle\DependencyInjection;
+namespace WebleXX\Bundle\AsteriskBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\ContainerInterface;
